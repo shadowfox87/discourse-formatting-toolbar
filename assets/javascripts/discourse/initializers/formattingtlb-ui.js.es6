@@ -17,15 +17,6 @@ function initializePlugin(api)
 
     api.onToolbarCreate(toolbar => {
         toolbar.addButton({
-          id: "addimg_ui_button",
-          group: "extras",
-          icon: "far-image",
-          perform: e => e.applySurround('[img]', '[/img]', 'addimg_ui_default_text')
-        });
-    });
-
-    api.onToolbarCreate(toolbar => {
-        toolbar.addButton({
           id: "floatl_ui_button",
           group: "extras",
           icon: "indent",
